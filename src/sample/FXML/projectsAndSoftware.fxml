@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.projectsAndSoftware">
+   <children>
+      <Button fx:id="projectBtn" layoutX="559.0" layoutY="453.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="127.0" style="-fx-background-color: #5909ff;" text="Save and Continue" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="projectToEduBtn" layoutX="499.0" layoutY="453.0" mnemonicParsing="false" style="-fx-background-color: #5909ff;" text="Back" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Label layoutX="228.0" layoutY="14.0" prefHeight="30.0" prefWidth="238.0" style="-fx-background-color: transparent;" text="Software Competencies" textFill="#5909ff">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font></Label>
+      <Label layoutX="35.0" layoutY="60.0" prefHeight="25.0" prefWidth="140.0" style="-fx-background-color: transparent;" text="Operating Systems:" textFill="#5909ff" AnchorPane.bottomAnchor="415.0" AnchorPane.leftAnchor="35.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="35.0" layoutY="90.0" prefHeight="25.0" prefWidth="140.0" style="-fx-background-color: transparent;" text="Languages Known:" textFill="#5909ff" AnchorPane.bottomAnchor="385.0" AnchorPane.leftAnchor="35.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="35.0" layoutY="120.0" prefHeight="25.0" prefWidth="140.0" style="-fx-background-color: transparent;" text="Database(s) Known:" textFill="#5909ff" AnchorPane.bottomAnchor="355.0" AnchorPane.leftAnchor="35.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="35.0" layoutY="150.0" prefHeight="25.0" prefWidth="140.0" style="-fx-background-color: transparent;" text="Other Interest:" textFill="#5909ff" AnchorPane.bottomAnchor="325.0" AnchorPane.leftAnchor="35.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="operatingSystem" layoutX="235.0" layoutY="56.0" prefHeight="25.0" prefWidth="267.0" style="-fx-border-width: 0px 0px 2px 0px; -fx-background-color: transparent; -fx-border-color: #5909ff;" AnchorPane.bottomAnchor="417.0" AnchorPane.leftAnchor="235.0" />
+      <TextField fx:id="languagesKnown" layoutX="235.0" layoutY="86.0" prefHeight="25.0" prefWidth="267.0" style="-fx-border-width: 0px 0px 2px 0px; -fx-background-color: transparent; -fx-border-color: #5909ff;" AnchorPane.bottomAnchor="387.0" AnchorPane.leftAnchor="235.0" />
+      <TextField fx:id="databaseKnown" layoutX="235.0" layoutY="116.0" prefHeight="25.0" prefWidth="267.0" style="-fx-border-width: 0px 0px 2px 0px; -fx-background-color: transparent; -fx-border-color: #5909ff;" AnchorPane.bottomAnchor="357.0" AnchorPane.leftAnchor="235.0" />
+      <TextField fx:id="otherInterest" layoutX="235.0" layoutY="146.0" prefHeight="25.0" prefWidth="267.0" style="-fx-border-width: 0px 0px 2px 0px; -fx-background-color: transparent; -fx-border-color: #5909ff;" AnchorPane.bottomAnchor="327.0" AnchorPane.leftAnchor="235.0" />
+      <Label layoutX="241.0" layoutY="198.0" prefHeight="30.0" prefWidth="238.0" style="-fx-background-color: transparent;" text="Projects Undertaken" textFill="#5909ff">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="11.0" layoutY="248.0" prefHeight="25.0" prefWidth="43.0" style="-fx-background-color: transparent;" text="S.No." textFill="#5909ff">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></Label>
+      <Label layoutX="86.0" layoutY="248.0" prefHeight="25.0" prefWidth="86.0" style="-fx-background-color: transparent;" text="Project Name" textFill="#5909ff">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></Label>
+      <Label layoutX="285.0" layoutY="248.0" prefHeight="25.0" prefWidth="80.0" style="-fx-background-color: transparent;" text="Description" textFill="#5909ff">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></Label>
+      <Label layoutX="451.0" layoutY="248.0" prefHeight="25.0" prefWidth="119.0" style="-fx-background-color: transparent;" text="Environment Used" textFill="#5909ff">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></Label>
+      <Label layoutX="609.0" layoutY="248.0" prefHeight="25.0" prefWidth="60.0" style="-fx-background-color: transparent;" text="Your Role" textFill="#5909ff">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></Label>
+      <Label layoutX="15.0" layoutY="306.0" prefHeight="17.0" prefWidth="20.0" text="1." textFill="#5909ff">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></Label>
+      <TextField fx:id="projectName_1" layoutX="56.0" layoutY="305.0" AnchorPane.bottomAnchor="170.0" />
+      <TextArea fx:id="description_1" layoutX="215.0" layoutY="284.0" prefHeight="78.0" prefWidth="203.0" />
+      <TextArea fx:id="description_2" layoutX="215.0" layoutY="374.0" prefHeight="78.0" prefWidth="203.0" />
+      <TextField fx:id="projectName_2" layoutX="56.0" layoutY="395.0" AnchorPane.bottomAnchor="80.0" />
+      <TextField fx:id="environment_1" layoutX="433.0" layoutY="305.0" AnchorPane.bottomAnchor="170.0" />
+      <TextField fx:id="environment_2" layoutX="436.0" layoutY="395.0" AnchorPane.bottomAnchor="80.0" />
+      <TextField fx:id="role_1" layoutX="596.0" layoutY="303.0" prefHeight="25.0" prefWidth="95.0" />
+      <TextField fx:id="role_2" layoutX="596.0" layoutY="395.0" prefHeight="25.0" prefWidth="95.0" />
+      <Label layoutX="15.0" layoutY="399.0" text="2." textFill="#5909ff">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

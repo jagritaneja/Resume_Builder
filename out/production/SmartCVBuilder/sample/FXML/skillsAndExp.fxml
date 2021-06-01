@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.skillsAndExp">
+   <children>
+      <Button fx:id="skillBtn" layoutX="569.0" layoutY="461.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="124.0" style="-fx-background-color: #5909ff;" text="Save and Continue" textFill="WHITE" AnchorPane.bottomAnchor="20.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="skillToProject" layoutX="519.0" layoutY="461.0" mnemonicParsing="false" style="-fx-background-color: #5909ff;" text="Back" textFill="WHITE" AnchorPane.bottomAnchor="20.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Label layoutX="92.0" layoutY="20.0" prefHeight="25.0" prefWidth="400.0" text="Experiential Learning / Industrial Training" textFill="#5909ff" AnchorPane.leftAnchor="130.0" AnchorPane.topAnchor="20.0">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="expLearning_1" layoutX="56.0" layoutY="74.0" prefHeight="25.0" prefWidth="500.0" promptText="Enter Your Details" AnchorPane.bottomAnchor="400.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="expLearning_2" layoutX="56.0" layoutY="116.0" prefHeight="25.0" prefWidth="500.0" promptText="Enter Your Details" AnchorPane.bottomAnchor="360.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="expLearning_3" layoutX="56.0" layoutY="158.0" prefHeight="25.0" prefWidth="500.0" promptText="Enter Your Details" AnchorPane.bottomAnchor="320.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </TextField>
+      <FontAwesomeIcon fill="#5909ff" glyphName="ASTERISK" layoutX="29.0" layoutY="93.1428575515747" size="1.2em" AnchorPane.bottomAnchor="404.2857141494751" />
+      <FontAwesomeIcon fill="#5909ff" glyphName="ASTERISK" layoutX="29.0" layoutY="132.0" size="1.2em" />
+      <FontAwesomeIcon fill="#5909ff" glyphName="ASTERISK" layoutX="29.0" layoutY="172.0" size="1.2em" />
+      <Label layoutX="46.0" layoutY="208.0" prefHeight="30.0" prefWidth="207.0" text="Interpersonal Skills" textFill="#5909ff">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="367.0" layoutY="208.0" prefHeight="30.0" prefWidth="255.0" text="Extra-Curricular Activities" textFill="#5909ff">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="interSkills_1" layoutX="80.0" layoutY="259.0" promptText="Enter your Skill" style="-fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: #5909ff;" AnchorPane.bottomAnchor="214.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </TextField>
+      <FontAwesomeIcon fill="#5909ff" glyphName="ASTERISK" layoutX="56.0" layoutY="277.0" size="1.2em" />
+      <TextField fx:id="interSkills_2" layoutX="80.0" layoutY="300.0" promptText="Enter your Skill" style="-fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: #5909ff;" AnchorPane.bottomAnchor="173.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </TextField>
+      <FontAwesomeIcon fill="#5909ff" glyphName="ASTERISK" layoutX="56.0" layoutY="318.0" size="1.2em" AnchorPane.leftAnchor="56.0" />
+      <TextField fx:id="interSkills_3" layoutX="80.0" layoutY="340.0" promptText="Enter your Skill" style="-fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: #5909ff;" AnchorPane.bottomAnchor="132.0" AnchorPane.leftAnchor="80.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </TextField>
+      <FontAwesomeIcon fill="#5909ff" glyphName="ASTERISK" layoutX="56.0" layoutY="358.0" size="1.2em" AnchorPane.bottomAnchor="132.0" AnchorPane.leftAnchor="56.0" />
+      <TextField fx:id="interSkills_4" layoutX="82.0" layoutY="387.0" promptText="Enter your Skill" style="-fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: #5909ff;" AnchorPane.bottomAnchor="91.0" AnchorPane.leftAnchor="80.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </TextField>
+      <FontAwesomeIcon fill="#5909ff" glyphName="ASTERISK" layoutX="58.0" layoutY="405.0" size="1.2em" AnchorPane.bottomAnchor="91.0" AnchorPane.leftAnchor="56.0" />
+      <TextField fx:id="extraActivity_1" layoutX="398.0" layoutY="258.0" prefHeight="27.0" prefWidth="217.0" promptText="Enter your extra-curricular activity" style="-fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: #5909ff;" AnchorPane.leftAnchor="397.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </TextField>
+      <FontAwesomeIcon fill="#5909ff" glyphName="ASTERISK" layoutX="378.0" layoutY="276.0" size="1.2em" AnchorPane.leftAnchor="375.0" />
+      <TextField fx:id="extraActivity_2" layoutX="397.0" layoutY="299.0" prefHeight="27.0" prefWidth="217.0" promptText="Enter your extra-curricular activity" style="-fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: #5909ff;" AnchorPane.leftAnchor="397.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </TextField>
+      <FontAwesomeIcon fill="#5909ff" glyphName="ASTERISK" layoutX="375.0" layoutY="317.0" size="1.2em" AnchorPane.leftAnchor="375.0" />
+      <TextField fx:id="extraActivity_3" layoutX="397.0" layoutY="340.0" prefHeight="27.0" prefWidth="217.0" promptText="Enter your extra-curricular activity" style="-fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: #5909ff;">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </TextField>
+      <FontAwesomeIcon fill="#5909ff" glyphName="ASTERISK" layoutX="375.0" layoutY="358.0" size="1.2em" AnchorPane.leftAnchor="375.0" />
+      <TextField fx:id="extraActivity_4" layoutX="397.0" layoutY="381.0" prefHeight="27.0" prefWidth="217.0" promptText="Enter your extra-curricular activity" style="-fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: #5909ff;">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </TextField>
+      <FontAwesomeIcon fill="#5909ff" glyphName="ASTERISK" layoutX="375.0" layoutY="399.0" size="1.2em" AnchorPane.leftAnchor="375.0" />
+   </children>
+</AnchorPane>

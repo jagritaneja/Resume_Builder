@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Icons">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/out/production/SmartCVBuilder/Icons" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/out/production/SmartCVBuilder/Icons" recursive="false" />
+  </library>
+</component>

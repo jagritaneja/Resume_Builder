@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.LoginController">
+   <children>
+      <HBox layoutX="-12.0" layoutY="-18.0" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Pane prefHeight="500.0" prefWidth="300.0" style="-fx-background-color: #0595ff;">
+               <children>
+                  <FontAwesomeIcon fill="WHITE" glyphName="FILE" layoutX="118.0" layoutY="214.0" size="5.5em" wrappingWidth="46.999997571110725" />
+                  <Label alignment="CENTER" layoutX="41.0" layoutY="242.0" prefHeight="40.0" prefWidth="216.0" text="Smart Resume" textFill="WHITE" textOverrun="WORD_ELLIPSIS">
+                     <font>
+                        <Font name="Arial Black" size="26.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="78.0" layoutY="284.0" prefHeight="37.0" prefWidth="136.0" text="Builder" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Black" size="26.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="46.0" layoutY="450.0" prefHeight="40.0" prefWidth="100.0" text="Developed By:" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font></Label>
+                  <Label layoutX="153.0" layoutY="450.0" prefHeight="40.0" prefWidth="93.0" text="Jagrit Aneja" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font></Label>
+               </children></Pane>
+            <AnchorPane prefHeight="500.0" prefWidth="400.0">
+               <children>
+                  <FontAwesomeIcon fill="#5909ff" glyphName="USER" layoutX="89.0" layoutY="223.5714282989502" size="2em" text="" AnchorPane.leftAnchor="89.0" AnchorPane.topAnchor="203.0" />
+                  <PasswordField fx:id="password" layoutX="128.0" layoutY="264.0" prefHeight="35.0" prefWidth="170.0" promptText="Enter Password" style="-fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: #0959ff;" AnchorPane.bottomAnchor="300.0" AnchorPane.leftAnchor="128.0" AnchorPane.topAnchor="264.0" />
+                  <FontAwesomeIcon fill="#5909ff" glyphName="KEY" layoutX="87.0" layoutY="283.5714282989502" size="2em" text="" AnchorPane.leftAnchor="87.0" AnchorPane.topAnchor="263.0" />
+                  <TextField fx:id="userName" layoutX="129.0" layoutY="197.0" prefHeight="35.0" prefWidth="170.0" promptText="Enter Username" style="-fx-background-color: transparent; -fx-border-color: #0959ff; -fx-border-width: 0px 0px 2px 0px;" AnchorPane.bottomAnchor="363.0" AnchorPane.leftAnchor="129.0" AnchorPane.topAnchor="197.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </TextField>
+                  <Label alignment="CENTER" layoutX="103.0" layoutY="105.0" prefHeight="66.0" prefWidth="216.0" style="-fx-background-color: transparent;" text="Welcome User" textFill="#0959ff" AnchorPane.bottomAnchor="429.0" AnchorPane.leftAnchor="103.0" AnchorPane.topAnchor="105.0">
+                     <font>
+                        <Font name="System Bold" size="22.0" />
+                     </font></Label>
+                  <Hyperlink layoutX="146.0" layoutY="450.0" prefHeight="23.0" prefWidth="136.0" text="Forgot Your Password?" textFill="#0959ff" AnchorPane.leftAnchor="146.0" AnchorPane.topAnchor="450.0" />
+                  <Button fx:id="loginButton" layoutX="157.0" layoutY="327.0" mnemonicParsing="false" onAction="#userLogin" prefHeight="34.0" prefWidth="100.0" style="-fx-background-color: #0959ff;" text="Login" textFill="WHITE" AnchorPane.bottomAnchor="239.0" AnchorPane.leftAnchor="157.0" AnchorPane.topAnchor="327.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Button>
+                  <FontAwesomeIcon fill="#5909ff" glyphName="USERS" layoutX="186.0" layoutY="87.85714340209961" size="3em" wrappingWidth="24.857142448425293" AnchorPane.leftAnchor="186.0" AnchorPane.topAnchor="57.0"> </FontAwesomeIcon>
+                  <Button fx:id="registerBtn" layoutX="212.0" layoutY="378.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" style="-fx-background-color: #0959ff;" text="Register" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Button>
+                  <Label alignment="CENTER" layoutX="104.0" layoutY="379.0" prefHeight="25.0" prefWidth="100.0" style="-fx-background-color: transparent;" text="New User ?" textFill="#0959ff">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Label>
+
+               </children></AnchorPane>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

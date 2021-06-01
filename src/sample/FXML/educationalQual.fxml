@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.educationalQualController">
+   <children>
+      <Button fx:id="eduToPrevbtn" layoutX="488.0" layoutY="455.0" mnemonicParsing="false" onAction="#toPersonal" prefHeight="25.0" prefWidth="43.0" style="-fx-background-color: #5909ff;" text="Back" textFill="WHITE" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="488.0" AnchorPane.topAnchor="455.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="eduBtn" layoutX="549.0" layoutY="454.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="123.0" style="-fx-background-color: #5909ff;" text="Save and Continue" textFill="WHITE" AnchorPane.bottomAnchor="20.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Label layoutX="224.0" layoutY="1.0" prefHeight="43.0" prefWidth="237.0" style="-fx-background-color: transparent;" text="Educational Qualification" textFill="#5909ff" AnchorPane.bottomAnchor="477.0" AnchorPane.leftAnchor="224.0" AnchorPane.topAnchor="1.0">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="35.0" layoutY="59.0" text="Year" textFill="#5909ff" AnchorPane.leftAnchor="35.0" AnchorPane.topAnchor="59.0">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="145.0" layoutY="59.0" text="Course/Degree" textFill="#5909ff" AnchorPane.leftAnchor="145.0" AnchorPane.topAnchor="59.0">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="306.0" layoutY="59.0" text="School/Insitute" textFill="#5909ff" AnchorPane.topAnchor="59.0">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="578.0" layoutY="59.0" text="Percentage" textFill="#5909ff" AnchorPane.topAnchor="59.0">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="453.0" layoutY="59.0" text="Board/Institue" textFill="#5909ff" AnchorPane.topAnchor="59.0">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="year_1" layoutX="15.0" layoutY="92.0" prefHeight="25.0" prefWidth="69.0" AnchorPane.leftAnchor="15.0" />
+      <TextField fx:id="year_2" layoutX="15.0" layoutY="130.0" prefHeight="25.0" prefWidth="69.0" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="130.0" />
+      <TextField fx:id="year_3" layoutX="15.0" layoutY="168.0" prefHeight="25.0" prefWidth="69.0" AnchorPane.bottomAnchor="307.0" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="168.0" />
+      <TextField fx:id="year_4" layoutX="15.0" layoutY="206.0" prefHeight="25.0" prefWidth="69.0" AnchorPane.bottomAnchor="269.0" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="206.0" />
+      <TextField fx:id="course_1" layoutX="115.0" layoutY="92.0" prefHeight="25.0" prefWidth="149.0" />
+      <TextField fx:id="course_2" layoutX="115.0" layoutY="130.0" />
+      <TextField fx:id="course_3" layoutX="115.0" layoutY="168.0" AnchorPane.topAnchor="168.0" />
+      <TextField fx:id="course_4" layoutX="115.0" layoutY="206.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="25.0" prefWidth="149.0" AnchorPane.bottomAnchor="269.0" AnchorPane.topAnchor="206.0" />
+      <TextField fx:id="school_1" layoutX="279.0" layoutY="92.0" AnchorPane.leftAnchor="279.0" AnchorPane.topAnchor="92.0" />
+      <TextField fx:id="school_2" layoutX="280.0" layoutY="130.0" />
+      <TextField fx:id="school_3" layoutX="280.0" layoutY="168.0" AnchorPane.topAnchor="168.0" />
+      <TextField fx:id="school_4" layoutX="280.0" layoutY="206.0" prefHeight="25.0" prefWidth="149.0" AnchorPane.bottomAnchor="269.0" AnchorPane.topAnchor="206.0" />
+      <TextField fx:id="board_1" layoutX="444.0" layoutY="92.0" prefHeight="25.0" prefWidth="104.0" AnchorPane.leftAnchor="444.0" />
+      <TextField fx:id="board_2" layoutX="444.0" layoutY="130.0" prefHeight="25.0" prefWidth="104.0" AnchorPane.leftAnchor="444.0" />
+      <TextField fx:id="board_3" layoutX="444.0" layoutY="168.0" prefHeight="25.0" prefWidth="104.0" AnchorPane.leftAnchor="444.0" AnchorPane.topAnchor="168.0" />
+      <TextField fx:id="board_4" layoutX="444.0" layoutY="206.0" prefHeight="25.0" prefWidth="104.0" AnchorPane.bottomAnchor="269.0" AnchorPane.leftAnchor="444.0" AnchorPane.topAnchor="206.0" />
+      <TextField fx:id="percentage_1" layoutX="568.0" layoutY="92.0" prefHeight="25.0" prefWidth="89.0" />
+      <TextField fx:id="percentage_2" layoutX="568.0" layoutY="130.0" prefHeight="25.0" prefWidth="89.0" />
+      <TextField fx:id="percentage_3" layoutX="568.0" layoutY="168.0" prefHeight="25.0" prefWidth="89.0" />
+      <TextField fx:id="percentage_4" layoutX="568.0" layoutY="206.0" prefHeight="25.0" prefWidth="89.0" />
+      <Label layoutX="232.0" layoutY="266.0" text="Academic Achievements" textFill="#5909ff">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="achievement_1" layoutX="45.0" layoutY="320.0" prefHeight="31.0" prefWidth="638.0" promptText="Achievement 1" style="-fx-border-color: #5909ff; -fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px;" AnchorPane.leftAnchor="45.0">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="achievement_2" layoutX="45.0" layoutY="364.0" prefHeight="31.0" prefWidth="638.0" promptText="Achievement 2" style="-fx-border-color: #5909ff; -fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px;" AnchorPane.leftAnchor="45.0">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="achievement_3" layoutX="45.0" layoutY="408.0" prefHeight="31.0" prefWidth="638.0" promptText="Achievement 3" style="-fx-border-color: #5909ff; -fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px;" AnchorPane.leftAnchor="45.0">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </TextField>
+      <FontAwesomeIcon fill="#5909ff" glyphName="TROPHY" layoutX="27.0" layoutY="428.4285717010498" size="1.5em" text="" AnchorPane.leftAnchor="27.0" AnchorPane.topAnchor="413.0" />
+      <FontAwesomeIcon fill="#5909ff" glyphName="TROPHY" layoutX="27.0" layoutY="385.0" size="1.5em" text="" AnchorPane.leftAnchor="27.0" />
+      <FontAwesomeIcon fill="#5909ff" glyphName="TROPHY" layoutX="27.0" layoutY="341.0" size="1.5em" text="" AnchorPane.leftAnchor="27.0" />
+   </children>
+</AnchorPane>

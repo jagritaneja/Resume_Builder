@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.personalController">
+   <children>
+      <Label alignment="CENTER" layoutX="140.0" layoutY="4.0" prefHeight="37.0" prefWidth="424.0" text="Personal Information" textFill="#5909ff" AnchorPane.leftAnchor="140.0" AnchorPane.topAnchor="4.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="64.0" text="Name" textFill="#5909ff" AnchorPane.leftAnchor="37.0" AnchorPane.topAnchor="64.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="104.0" text="Date Of Birth" textFill="#5909ff" AnchorPane.leftAnchor="37.0" AnchorPane.topAnchor="104.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="144.0" text="Gender" textFill="#5909ff" AnchorPane.leftAnchor="37.0" AnchorPane.topAnchor="144.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="184.0" text="Marital Status" textFill="#5909ff" AnchorPane.leftAnchor="37.0" AnchorPane.topAnchor="184.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="224.0" text="Address" textFill="#5909ff" AnchorPane.leftAnchor="37.0" AnchorPane.topAnchor="224.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="304.0" text="Contact Number" textFill="#5909ff" AnchorPane.leftAnchor="37.0" AnchorPane.topAnchor="304.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="344.0" text="Email" textFill="#5909ff" AnchorPane.leftAnchor="37.0" AnchorPane.topAnchor="344.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <DatePicker fx:id="p_dob" layoutX="171.0" layoutY="100.0" prefHeight="25.0" prefWidth="149.0" />
+      <TextField fx:id="p_name" layoutX="171.0" layoutY="58.0" AnchorPane.topAnchor="58.0" />
+      <TextField fx:id="p_contact" layoutX="172.0" layoutY="300.0" />
+      <TextField fx:id="p_email" layoutX="172.0" layoutY="340.0" />
+      <ChoiceBox fx:id="p_gender" layoutX="171.0" layoutY="140.0" prefHeight="25.0" prefWidth="149.0" />
+      <ChoiceBox fx:id="p_marriedStatus" layoutX="171.0" layoutY="180.0" prefWidth="150.0" />
+      <TextArea fx:id="p_address" layoutX="171.0" layoutY="217.0" prefHeight="67.0" prefWidth="150.0" />
+      <Button fx:id="perButton" layoutX="549.0" layoutY="445.0" mnemonicParsing="false" onAction="#perToNext" style="-fx-background-color: #5909ff;" text="Save and Continue" textFill="WHITE" AnchorPane.topAnchor="450.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="474.0" layoutY="58.0" prefHeight="25.0" prefWidth="149.0" style="-fx-background-color: transparent;" text="Hobbies/Interest" textFill="#5909ff">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <!--<FontAwesomeIcon glyphName="ASTERISK" layoutX="423.0" layoutY="118.0" wrappingWidth="17.00001037120819" AnchorPane.leftAnchor="423.0" AnchorPane.topAnchor="107.7142858505249" />-->
+      <TextField fx:id="hobbies_1" layoutX="441.0" layoutY="104.0" prefHeight="25.0" prefWidth="216.0" promptText="Enter your hobby or Interest" style="-fx-border-color: #5909ff; -fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px;" AnchorPane.topAnchor="100.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></TextField>
+      <TextField fx:id="hobbies_2" layoutX="441.0" layoutY="142.0" prefHeight="25.0" prefWidth="216.0" promptText="Enter your hobby or Interest" style="-fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: #5909ff;" AnchorPane.topAnchor="140.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></TextField>
+      <TextField fx:id="hobbies_3" layoutX="441.0" layoutY="180.0" prefHeight="25.0" prefWidth="216.0" promptText="Enter your hobby or Interest" style="-fx-border-color: #5909ff; -fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px;" AnchorPane.topAnchor="180.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></TextField>
+      <TextField fx:id="hobbies_4" layoutX="441.0" layoutY="219.0" prefHeight="25.0" prefWidth="216.0" promptText="Enter your hobby or Interest" style="-fx-border-color: #5909ff; -fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px;" AnchorPane.topAnchor="220.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </TextField>
+      <!--<FontAwesomeIcon glyphName="ASTERISK" layoutX="423.0" layoutY="156.0" wrappingWidth="17.00001037120819" AnchorPane.leftAnchor="423.0" AnchorPane.topAnchor="150.0" />-->
+      <!--<FontAwesomeIcon glyphName="ASTERISK" layoutX="423.0" layoutY="199.0" text="" wrappingWidth="17.00001037120819" AnchorPane.leftAnchor="423.0" />-->
+      <!--<FontAwesomeIcon glyphName="ASTERISK" layoutX="423.0" layoutY="239.0" text="" wrappingWidth="17.00001037120819" AnchorPane.leftAnchor="423.0" />-->
+   </children>
+</AnchorPane>
